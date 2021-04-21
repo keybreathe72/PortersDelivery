@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HK3to"
+    android:background="@color/background_color">
+
+    <fragment
+        android:id="@+id/map3"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="411dp"
+        android:layout_height="370dp"
+        map:layout_constraintBottom_toBottomOf="parent"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintHorizontal_bias="0.0"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toTopOf="parent"
+        map:layout_constraintVertical_bias="0.357" />
+
+    <TextView
+        android:id="@+id/textView216"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You Order Has been Placed !"
+        android:textColor="@color/title_color"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        map:layout_constraintBottom_toTopOf="@+id/map3"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toTopOf="parent"
+        map:layout_constraintVertical_bias="0.44" />
+
+    <TextView
+        android:id="@+id/textView215"
+        android:layout_width="263dp"
+        android:layout_height="43dp"
+        android:gravity="center"
+        android:text="It would be soon. You can check and wait for your delivery. "
+        android:textColor="@color/text_color_transparent"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        map:layout_constraintBottom_toTopOf="@+id/map3"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toTopOf="parent"
+        map:layout_constraintVertical_bias="0.887" />
+
+    <TextView
+        android:id="@+id/textView229"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estimated delivery Time:"
+        android:textColor="@color/title_color"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        map:layout_constraintBottom_toBottomOf="parent"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintHorizontal_bias="0.356"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toBottomOf="@+id/map3"
+        map:layout_constraintVertical_bias="0.097" />
+
+    <TextView
+        android:id="@+id/textView297"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="25 min"
+        android:textColor="#56CA41"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        map:layout_constraintBottom_toBottomOf="parent"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintHorizontal_bias="0.862"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toBottomOf="@+id/map3"
+        map:layout_constraintVertical_bias="0.097" />
+
+    <TextView
+        android:id="@+id/textView209"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Have some problems?"
+        android:textColor="@color/text_color_transparent"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        map:layout_constraintBottom_toBottomOf="parent"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintHorizontal_bias="0.386"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toBottomOf="@+id/map3"
+        map:layout_constraintVertical_bias="0.287" />
+
+    <TextView
+        android:id="@+id/textView208"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:textColor="#E6696D"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        map:layout_constraintBottom_toBottomOf="parent"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintHorizontal_bias="0.686"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toBottomOf="@+id/map3"
+        map:layout_constraintVertical_bias="0.287" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

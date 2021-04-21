@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Porter\'s Delivery</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="logo_name">Porter\'s Delivery</string>
+    <string name="japanese_food">Japanese Food</string>
+    <string name="local_food">Local Food</string>
+    <string name="thai_food">Thai Food</string>
+    <string name="viet_food">Vietnamese Food</string>
+    <string name="discount">Enjoy 20% discount now!</string>
+    <string name="discount_dsc">Free delivery + 20% discount</string>
+    <string name="discount_dsc2">4+ restaurants is offering</string>
+    <string name="discount_dsc3">2 weeks left</string>
+    <string name="StarOcean">Star Ocean</string>
+    <string name="Ordernow">Order now</string>
+    <string name="Agatha">Agatha</string>
+    <string name="Ad">Artiste Dessert</string>
+    <string name="Artistedessert">Artiste Dessert</string>
+    <string name="Fieldrestaurant">Field Restaurant</string>
+    <string name="hkrestaurant1">阿不列餐廳</string>
+    <string name="hkrestaurant2">東日日本料理</string>
+    <string name="hkrestaurant3">泰好食</string>
+    <string name="Contact">Contact Us <u>underline</u>.</string>
+
+
+    <string name="checkboxdsc1">Hot Brisket Bun $118 </string>
+    <string name="checkboxdsc2">Crab meat carbonara      $128 </string>
+    <string name="checkboxdsc3">Fresh clams linguine      $88</string>
+    <string name="checkboxdsc4">Balagnese spaghetti      $78</string>
+    <string name="checkboxdsc5">Caesar salad      $48</string>
+    <string name="checkboxdsc6">Cream Chowder      $38</string>
+    <string name="checkboxdsc22">Crab pasta risotto      $118</string>
+    <string name="checkboxdsc33">Golden oyster      $138</string>
+    <string name="checkboxdsc7">Norway Salmon      $98</string>
+
+
+    <string name="fastfood">Fast Food</string>
+    <string name="current_location">Current Location</string>
+    <string name="finedining">Find Dining</string>
+    <string name="search_text">Search</string>
+    <string name="logo_dsc">Food goes into your hands</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="all_phones">all_phones</string>
+    <string name="view_all">View All</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_mong_ko_k">Map</string>
+    <string name="title_activity_h_k2to">Map</string>
+    <string name="title_activity_h_k3to">Map</string>
+
+</resources>

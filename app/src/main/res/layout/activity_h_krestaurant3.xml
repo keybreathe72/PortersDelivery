@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StarOcean">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <Button
+                    android:id="@+id/hkbutton3"
+                    android:layout_width="249dp"
+                    android:layout_height="58dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="180dp"
+                    android:text="@string/hkrestaurant3"
+                    android:textColor="@color/title_color"
+                    android:background="@drawable/restaurantbutton"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/thailogo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/thai33"
+                    android:adjustViewBounds="true"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="-100dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox111"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/thailogo"
+                    android:layout_marginTop="10dp"
+                    android:text="青木瓜沙侓                                                                   $36" />
+
+                <CheckBox
+                    android:id="@+id/checkBox112"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox111"
+                    android:layout_marginTop="5dp"
+                    android:text="春卷拼蝦餅                                                                   $45" />
+
+                <CheckBox
+                    android:id="@+id/checkBox113"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox112"
+                    android:layout_marginTop="5dp"
+                    android:text="炭燒豬頸肉                                                                   $45" />
+
+                <CheckBox
+                    android:id="@+id/checkBox114"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox113"
+                    android:layout_marginTop="5dp"
+                    android:text="馬拉盞炒通菜                                                               $45" />
+
+                <CheckBox
+                    android:id="@+id/checkBox115"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox114"
+                    android:layout_marginTop="5dp"
+                    android:text="海南雞撈檬                                                                   $45" />
+
+                <CheckBox
+                    android:id="@+id/checkBox116"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox115"
+                    android:layout_marginTop="5dp"
+                    android:text="冬陰公湯飯                                                                   $58" />
+
+                <CheckBox
+                    android:id="@+id/checkBox117"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox116"
+                    android:layout_marginTop="5dp"
+                    android:text="印尼海鮮炒飯                                                               $68" />
+
+                <CheckBox
+                    android:id="@+id/checkBox118"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox117"
+                    android:layout_marginTop="5dp"
+                    android:text="黃咖喱什菜                                                                   $72" />
+
+                <CheckBox
+                    android:id="@+id/checkBox119"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox118"
+                    android:layout_marginTop="5dp"
+                    android:text="星州咖喱牛根腩                                                           $98" />
+
+                <CheckBox
+                    android:id="@+id/checkBox120"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox119"
+                    android:layout_marginTop="5dp"
+                    android:text="泰式大頭蝦                                                                   $98" />
+
+
+                <Button
+                    android:id="@+id/hkorder3"
+                    android:layout_width="279dp"
+                    android:layout_height="58dp"
+                    android:layout_below="@id/checkBox120"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/orderbt"
+                    android:text="@string/Ordernow"
+                    android:textColor="@color/title_color"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

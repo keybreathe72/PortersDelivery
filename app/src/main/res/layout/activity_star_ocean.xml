@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StarOcean">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <Button
+                    android:id="@+id/staroceanbutton"
+                    android:layout_width="249dp"
+                    android:layout_height="58dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="200dp"
+                    android:text="@string/StarOcean"
+                    android:textColor="@color/title_color"
+                    android:background="@drawable/restaurantbutton"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/staroceanlogo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/star3"
+                    android:adjustViewBounds="true"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="-100dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/staroceanlogo"
+                    android:layout_marginTop="10dp"
+                    android:text="Hot Brisket Bun                                                            $118" />
+
+                <CheckBox
+                    android:id="@+id/checkBox1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox"
+                    android:layout_marginTop="5dp"
+                    android:text="Crab meat carbonara                                                   $128" />
+
+                <CheckBox
+                    android:id="@+id/checkBox2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox1"
+                    android:layout_marginTop="5dp"
+                    android:text="Crab pasta risotto                                                        $118" />
+
+                <CheckBox
+                    android:id="@+id/checkBox3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox2"
+                    android:layout_marginTop="5dp"
+                    android:text="Fresh clams linguine                                                    $88" />
+
+                <CheckBox
+                    android:id="@+id/checkBox4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox3"
+                    android:layout_marginTop="5dp"
+                    android:text="Balagnese spaghetti                                                    $78" />
+
+                <CheckBox
+                    android:id="@+id/checkBox5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox4"
+                    android:layout_marginTop="5dp"
+                    android:text="Golden oyster                                                               $138" />
+
+                <CheckBox
+                    android:id="@+id/checkBox6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox5"
+                    android:layout_marginTop="5dp"
+                    android:text="Norway Salmon                                                            $98" />
+
+                <CheckBox
+                    android:id="@+id/checkBox7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox6"
+                    android:layout_marginTop="5dp"
+                    android:text="Caesar salad                                                                 $48" />
+
+                <CheckBox
+                    android:id="@+id/checkBox8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox7"
+                    android:layout_marginTop="5dp"
+                    android:text="Cream Chowder                                                            $38" />
+
+
+                <Button
+                    android:id="@+id/staroceanbutton2"
+                    android:layout_width="279dp"
+                    android:layout_height="58dp"
+                    android:layout_below="@id/checkBox8"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/orderbt_notavailable"
+                    android:text="@string/Ordernow"
+                    android:textColor="@color/title_color"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

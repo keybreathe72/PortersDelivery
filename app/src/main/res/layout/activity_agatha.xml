@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StarOcean">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <Button
+                    android:id="@+id/agathabutton"
+                    android:layout_width="249dp"
+                    android:layout_height="58dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="110dp"
+                    android:text="@string/Agatha"
+                    android:textColor="@color/title_color"
+                    android:background="@drawable/restaurantbutton"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/agathalogo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/agatha333"
+                    android:adjustViewBounds="true"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="-100dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/agathalogo"
+                    android:layout_marginTop="20dp"
+                    android:text="Smoked Crostini                                                         $218" />
+
+                <CheckBox
+                    android:id="@+id/checkBox22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox21"
+                    android:layout_marginTop="5dp"
+                    android:text="Sea Urchin Crostini                                                     $328" />
+
+                <CheckBox
+                    android:id="@+id/checkBox23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox22"
+                    android:layout_marginTop="5dp"
+                    android:text="Sea Urchin risotto                                                       $218" />
+
+                <CheckBox
+                    android:id="@+id/checkBox24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox23"
+                    android:layout_marginTop="5dp"
+                    android:text="Lobster Platter                                                            $488" />
+
+                <CheckBox
+                    android:id="@+id/checkBox25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox24"
+                    android:layout_marginTop="5dp"
+                    android:text="Seafood Platter                                                           $578" />
+
+                <CheckBox
+                    android:id="@+id/checkBox26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox25"
+                    android:layout_marginTop="5dp"
+                    android:text="Sea Urchin Linguine                                                   $338" />
+
+                <CheckBox
+                    android:id="@+id/checkBox27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox26"
+                    android:layout_marginTop="5dp"
+                    android:text="French Yellow Chicken                                              $298" />
+
+                <CheckBox
+                    android:id="@+id/checkBox28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox27"
+                    android:layout_marginTop="5dp"
+                    android:text="Fish Fillet                                                                    $248" />
+
+                <CheckBox
+                    android:id="@+id/checkBox29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox28"
+                    android:layout_marginTop="5dp"
+                    android:text="US Beef Striploin Steak                                             $538" />
+
+                <CheckBox
+                    android:id="@+id/checkBox30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox29"
+                    android:layout_marginTop="5dp"
+                    android:text="M5 beef rib eye steak                                               $538" />
+
+
+                <Button
+                    android:id="@+id/agathabutton2"
+                    android:layout_width="279dp"
+                    android:layout_height="58dp"
+                    android:layout_below="@id/checkBox30"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="70dp"
+                    android:background="@drawable/orderbt_notavailable"
+                    android:text="@string/Ordernow"
+                    android:textColor="@color/title_color"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

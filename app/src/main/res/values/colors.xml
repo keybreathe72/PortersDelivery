@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="background_color">#262626</color>
+    <color name="title_color">#E6E5E5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="login_blue">#555B88</color>
+    <color name="hints_red">#D94646</color>
+    <color name="Transparent">#00000000</color>
+    <color name="Transparent80">#80000000</color>
+    <color name="text_color">#E6E5E5</color>
+    <color name="text_color_transparent">#9F9F9F</color>
+    <color name="current_location">#DBDBDB</color>
+    <color name="restaurantbt">#C1C0C0</color>
+    <color name="orderbt">#1E5D4B</color>
+    <color name="orderbt2">#208686</color>
+    <color name="staroceanbt">#C0BACE</color>
+    <color name="notavailablebt">#909090</color>
+
+</resources>

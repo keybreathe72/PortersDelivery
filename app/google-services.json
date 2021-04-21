@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "965385562405",
+    "firebase_url": "https://new-food-delivery-app-a8a09.firebaseio.com",
+    "project_id": "new-food-delivery-app-a8a09",
+    "storage_bucket": "new-food-delivery-app-a8a09.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965385562405:android:51ac1b5f06713290ca52cc",
+        "android_client_info": {
+          "package_name": "com.example.portersdelivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965385562405-ecubk80h0boldhunu9dqmujh19vcra27.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXy-f7T0jdR5rmrv--yUx5axF9L_1EkRg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965385562405-ecubk80h0boldhunu9dqmujh19vcra27.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StarOcean">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <Button
+                    android:id="@+id/Fieldbutton"
+                    android:layout_width="249dp"
+                    android:layout_height="58dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="160dp"
+                    android:text="@string/Fieldrestaurant"
+                    android:textColor="@color/title_color"
+                    android:background="@drawable/restaurantbutton"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/Fieldlogo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/frestaurant2"
+                    android:adjustViewBounds="true"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="-100dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Fieldlogo"
+                    android:layout_marginTop="10dp"
+                    android:text="Supreme de volaille                                                   $160" />
+
+                <CheckBox
+                    android:id="@+id/checkBox42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox41"
+                    android:layout_marginTop="5dp"
+                    android:text="chips de promme                                                       $160" />
+
+                <CheckBox
+                    android:id="@+id/checkBox43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox42"
+                    android:layout_marginTop="5dp"
+                    android:text="Navarin d'agneau                                                       $162" />
+
+                <CheckBox
+                    android:id="@+id/checkBox44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox43"
+                    android:layout_marginTop="5dp"
+                    android:text="riz pilaf fe                                                                    $168" />
+
+                <CheckBox
+                    android:id="@+id/checkBox45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox44"
+                    android:layout_marginTop="5dp"
+                    android:text="Lamb Navarin                                                             $148" />
+
+                <CheckBox
+                    android:id="@+id/checkBox46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox45"
+                    android:layout_marginTop="5dp"
+                    android:text="Aile de raie la grenobloise                                         $148" />
+
+                <CheckBox
+                    android:id="@+id/checkBox47"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox46"
+                    android:layout_marginTop="5dp"
+                    android:text="Grenobloise style skate fish                                      $148" />
+
+                <CheckBox
+                    android:id="@+id/checkBox48"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox47"
+                    android:layout_marginTop="5dp"
+                    android:text="Chicken breast afoli                                                   $172" />
+
+                <CheckBox
+                    android:id="@+id/checkBox49"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox48"
+                    android:layout_marginTop="5dp"
+                    android:text="Louise's signature                                                      $228" />
+
+
+
+                <Button
+                    android:id="@+id/fbutton2"
+                    android:layout_width="279dp"
+                    android:layout_height="58dp"
+                    android:layout_below="@id/checkBox49"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/orderbt_notavailable"
+                    android:text="@string/Ordernow"
+                    android:textColor="@color/title_color"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StarOcean">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="758dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <Button
+                    android:id="@+id/hkbutton"
+                    android:layout_width="249dp"
+                    android:layout_height="58dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="180dp"
+                    android:background="@drawable/restaurantbutton"
+                    android:text="@string/hkrestaurant1"
+                    android:textColor="@color/title_color"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/hklogo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/hkrestaurant1"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="-100dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox61"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/hklogo"
+                    android:layout_marginTop="10dp"
+                    android:text="揚州炒飯                                                                       $52" />
+
+                <CheckBox
+                    android:id="@+id/checkBox62"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox61"
+                    android:layout_marginTop="5dp"
+                    android:text="印尼炒飯                                                                       $52" />
+
+                <CheckBox
+                    android:id="@+id/checkBox63"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox62"
+                    android:layout_marginTop="5dp"
+                    android:text="特色椒鹽豬扒飯                                                           $48" />
+
+                <CheckBox
+                    android:id="@+id/checkBox64"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox63"
+                    android:layout_marginTop="5dp"
+                    android:text="豆腐火腩飯                                                                  $48" />
+
+                <CheckBox
+                    android:id="@+id/checkBox65"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox64"
+                    android:layout_marginTop="5dp"
+                    android:text="粟米魚柳飯                                                                  $48" />
+
+                <CheckBox
+                    android:id="@+id/checkBox66"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox65"
+                    android:layout_marginTop="5dp"
+                    android:text="西檸雞飯                                                                      $54" />
+
+                <CheckBox
+                    android:id="@+id/checkBox67"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox66"
+                    android:layout_marginTop="5dp"
+                    android:text="魷魚蒸肉餅飯                                                              $56" />
+
+                <CheckBox
+                    android:id="@+id/checkBox68"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox67"
+                    android:layout_marginTop="5dp"
+                    android:text="XO醬海鮮炒飯                                                             $56" />
+
+                <CheckBox
+                    android:id="@+id/checkBox69"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox68"
+                    android:layout_marginTop="5dp"
+                    android:text="芝士焗肉醬意粉                                                          $56" />
+
+
+                <Button
+                    android:id="@+id/hkorder1"
+                    android:layout_width="279dp"
+                    android:layout_height="58dp"
+                    android:layout_below="@id/checkBox69"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/orderbt"
+                    android:text="@string/Ordernow"
+                    android:textColor="@color/title_color"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

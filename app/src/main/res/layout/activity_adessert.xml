@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StarOcean">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <Button
+                    android:id="@+id/adbutton"
+                    android:layout_width="249dp"
+                    android:layout_height="58dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="140dp"
+                    android:text="@string/Ad"
+                    android:textColor="@color/title_color"
+                    android:background="@drawable/restaurantbutton"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/adlogo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/adessert2"
+                    android:adjustViewBounds="true"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="-100dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/adlogo"
+                    android:layout_marginTop="10dp"
+                    android:text="Jasmine Panna Catta                                                  $60" />
+
+                <CheckBox
+                    android:id="@+id/checkBox32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox31"
+                    android:layout_marginTop="5dp"
+                    android:text="Passion Fruit Cake                                                       $60" />
+
+                <CheckBox
+                    android:id="@+id/checkBox33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox32"
+                    android:layout_marginTop="5dp"
+                    android:text="Black Currant Mousse                                                 $62" />
+
+                <CheckBox
+                    android:id="@+id/checkBox34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox33"
+                    android:layout_marginTop="5dp"
+                    android:text="Periodic                                                                         $68" />
+
+                <CheckBox
+                    android:id="@+id/checkBox35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox34"
+                    android:layout_marginTop="5dp"
+                    android:text="Chocolate Pie                                                               $48" />
+
+                <CheckBox
+                    android:id="@+id/checkBox36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox35"
+                    android:layout_marginTop="5dp"
+                    android:text="Strawberry Pie                                                              $48" />
+
+                <CheckBox
+                    android:id="@+id/checkBox37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox36"
+                    android:layout_marginTop="5dp"
+                    android:text="Blueberry Pie                                                                $48" />
+
+                <CheckBox
+                    android:id="@+id/checkBox38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox37"
+                    android:layout_marginTop="5dp"
+                    android:text="Cream Cheese Chocolate Cake                                 $72" />
+
+                <CheckBox
+                    android:id="@+id/checkBox39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox38"
+                    android:layout_marginTop="5dp"
+                    android:text="Afternoon Tea Set                                                      $228" />
+
+                <CheckBox
+                    android:id="@+id/checkBox40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox39"
+                    android:layout_marginTop="5dp"
+                    android:text="Macaroon                                                            $20 each" />
+
+
+                <Button
+                    android:id="@+id/adbutton2"
+                    android:layout_width="279dp"
+                    android:layout_height="58dp"
+                    android:layout_below="@id/checkBox40"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/orderbt_notavailable"
+                    android:text="@string/Ordernow"
+                    android:textColor="@color/title_color"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

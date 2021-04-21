@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StarOcean">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <Button
+                    android:id="@+id/hkbutton1"
+                    android:layout_width="249dp"
+                    android:layout_height="58dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="220dp"
+                    android:text="@string/hkrestaurant2"
+                    android:textColor="@color/title_color"
+                    android:background="@drawable/restaurantbutton"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/hklogo1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/hkrestaurant22"
+                    android:adjustViewBounds="true"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="-100dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox71"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/hklogo1"
+                    android:layout_marginTop="10dp"
+                    android:text="牛肉手打烏冬                                                                $98" />
+
+                <CheckBox
+                    android:id="@+id/checkBox72"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox71"
+                    android:layout_marginTop="5dp"
+                    android:text="牛柳粒定食                                                                  $118" />
+
+                <CheckBox
+                    android:id="@+id/checkBox73"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox72"
+                    android:layout_marginTop="5dp"
+                    android:text="香草燒三文魚定食                                                        $88" />
+
+                <CheckBox
+                    android:id="@+id/checkBox74"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox73"
+                    android:layout_marginTop="5dp"
+                    android:text="汁燒豬軟骨定食                                                            $88" />
+
+                <CheckBox
+                    android:id="@+id/checkBox75"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox74"
+                    android:layout_marginTop="5dp"
+                    android:text="豚肉雜菜定食                                                              $108" />
+
+                <CheckBox
+                    android:id="@+id/checkBox76"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox75"
+                    android:layout_marginTop="5dp"
+                    android:text="鹽燒秋刀魚定食                                                            $73" />
+
+                <CheckBox
+                    android:id="@+id/checkBox77"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox76"
+                    android:layout_marginTop="5dp"
+                    android:text="鹽燒鯖魚定食                                                                $73" />
+
+                <CheckBox
+                    android:id="@+id/checkBox78"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox77"
+                    android:layout_marginTop="5dp"
+                    android:text="照燒雞扒定食                                                                $70" />
+
+                <CheckBox
+                    android:id="@+id/checkBox79"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox78"
+                    android:layout_marginTop="5dp"
+                    android:text="吉列豬扒定食                                                                $70" />
+
+                <CheckBox
+                    android:id="@+id/checkBox80"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox79"
+                    android:layout_marginTop="5dp"
+                    android:text="海膽炒飯                                                                      $148" />
+
+                <CheckBox
+                    android:id="@+id/checkBox881"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox80"
+                    android:layout_marginTop="5dp"
+                    android:text="鰻魚炒飯                                                                      $128" />
+
+                <CheckBox
+                    android:id="@+id/checkBox882"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox881"
+                    android:layout_marginTop="5dp"
+                    android:text="三文魚炒飯                                                                    $80" />
+                <CheckBox
+                    android:id="@+id/checkBox883"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/checkBox882"
+                    android:layout_marginTop="5dp"
+                    android:text="咖哩蛋包飯                                                                    $78" />
+
+
+                <Button
+                    android:id="@+id/hkorder2"
+                    android:layout_width="279dp"
+                    android:layout_height="58dp"
+                    android:layout_below="@id/checkBox883"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/orderbt"
+                    android:text="@string/Ordernow"
+                    android:textColor="@color/title_color"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>
